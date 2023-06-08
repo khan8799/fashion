@@ -1,0 +1,267 @@
+.collapse{
+    justify-content: center;
+}
+.collapse1{
+    justify-content: end;
+}
+.cart{
+    padding-left: 20px;
+}
+#login{
+    text-decoration: none;
+}
+#navbar{
+    background-color: bisque!important;
+}
+
+.block2{
+    display: flex;
+}
+.block21{
+  width: 50%;
+  height: 600px;
+  background: url('https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid white;
+}
+.block22{
+width: 50%;
+height: 600px;
+}
+.women{
+    padding-top: 2%;
+    padding-left: 0%;
+    color: rgb(3, 3, 3);
+}
+#fashion{
+    font-family:'Cookie',cursive;
+    color: #111111;
+    margin-bottom: 5px
+}
+#lorem1{
+    padding-top: 6px;
+    padding-right: 35%;
+}
+#shop{
+    font-weight:800;
+    color: black;
+}
+#block12{
+    display: flex;
+}
+#block21{
+    display: flex;
+}
+.part1{
+    width:50%;
+    height: 300px;
+}
+.part0{
+    width:50%;
+    height: 300px;
+    
+}
+#one{
+    background: url('https://images.pexels.com/photos/10909251/pexels-photo-10909251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    border: 5px solid white;
+}
+#two{
+    background: url('https://images.pexels.com/photos/1620760/pexels-photo-1620760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 120% 400px;
+    border: 5px solid white;
+}
+#three{
+    background: url('https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 5px solid white;
+}
+#four{
+    background: url('https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    border: 5px solid white;
+
+}
+.nav-link{
+    color: black;
+}
+.new{
+    text-decoration: underline solid red;
+    padding-left: 30px;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+}
+.block31{
+    width: 25%;
+    height: 500px;   
+    padding-top: 30px;
+}
+#p31{
+    width: 90%;
+}
+#p32{
+    width: 90%;
+    height: 380px;
+}
+#p33{
+    width: 90%;
+}
+.checked{
+    color: orange;
+}
+.rating{
+   text-align: center;
+}
+.pic{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    background: url('https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+
+}
+.picc{
+    text-align: center;
+    padding-top: 12%;
+}
+.block4{
+    display: flex;
+}
+.block41{
+    width: 35%;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.bag{
+    display: flex;
+    padding-top: 30px;
+}
+h2{
+    padding-top: 50px;
+}
+.bag-price{
+    padding-left: 20px;
+}
+.discount{
+    width: 100%;
+    height: 600px;
+    background: url('https://images.pexels.com/photos/318236/pexels-photo-318236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size:100% 600px;
+    justify-content: center;
+}
+.sale{
+    padding-top: 19%;
+}
+.option{
+    width: 100%;
+    height: 200px;
+}
+.opt1{
+    display: flex;
+    padding-left: 50px;
+}
+.img2{
+    display: flex;
+    padding-top: 70px;
+}
+.img20{
+    width: 25%;
+    border: #111111;
+    height: 200px;
+}
+#img20{
+    background: url('https://images.pexels.com/photos/4416763/pexels-photo-4416763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 105% 250px;
+}
+#img21{
+    background: url('https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg');
+    background-repeat: no-repeat;
+    background-size: 110% 250px;
+}
+#img22{
+    background: url('https://images.pexels.com/photos/1493112/pexels-photo-1493112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+#img23{
+    background: url('https://images.pexels.com/photos/93488/pexels-photo-93488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 110% 250px;
+}
+#img24{
+    background: url('https://images.pexels.com/photos/8457630/pexels-photo-8457630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 120% 250px;
+}
+.last-block{
+    display:flex;
+    background-color: yellow;
+    margin-top: 40px;
+}
+.class1{
+    width: 33%;
+    height: 300px;
+    padding-top: 60px;
+}
+.class11{
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.class33{
+    padding-top: 40px;
+}
+.fa-brands{
+    padding-right: 20px;
+}
+#cls1{
+    display: flex;
+    justify-content: center;
+}
+.class32{
+    padding-top: 40px;
+}
+#cls2{
+    padding-right: 40px;
+}
+.QUICK{
+text-decoration: none;
+color: gray;
+}
+.ACCOUNT{
+text-decoration: none;
+color: gray;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: yellow;
+}
+.bg-body-tertiary1{
+    padding-top: 60px;
+}
+.mid-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+.m-bar{
+    padding: 20px 20px 20px 20px;
+}
+
+

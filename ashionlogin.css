@@ -1,0 +1,62 @@
+.collapse{
+    justify-content: center;
+}
+.collapse1{
+    justify-content: end;
+}
+.cart{
+    padding-left: 20px;
+}
+.d-flex{
+    padding-right: 50px;
+}
+.navbar{
+    background-color: white !important;
+}
+body{
+    background-color: bisque;
+}
+.login-form{
+    background-color: white !important;
+    width: 25%;
+    height: 60%;
+    margin-left: 500px;
+    margin-top: 80px;
+    text-align: center;
+    border: 2px solid palevioletred;
+}
+.email{
+    width: 300px;
+}
+.pswrd{
+    width: 300px;
+    margin-top: 20px;
+}
+#remember{
+    margin-top: 20px;
+    text-align: left;
+}
+.fb{
+    margin-top: 0px;
+    width: 300px;
+    background-color: #3b5998;
+}
+.google{
+    margin-top: 10px;
+    width: 300px;
+    background-color: #FF0000;
+}
+.register{
+    margin-top: 20px;
+}
+#or{
+    font-weight: 10px !important;
+    margin-top: 30px;
+}
+.inner-container{
+   margin-left: 20px;
+   text-align: left;
+}
+.forgot{
+    padding-left: 60px;
+}
