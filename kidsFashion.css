@@ -1,0 +1,36 @@
+#navbar{
+    background-color: bisque!important;
+}
+.cart{
+    padding-left: 20px;
+}
+.contain{
+    display: flex;
+    background-color: white;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    justify-content: center;
+    height: 10px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+.dropdown {
+    padding-right: 2%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 20%;
+    padding-top: 15px;
+}
+.col img{
+    width: 300px;
+}
+.col{
+    border: 10px;
+}
+.col a{
+    text-decoration: none;
+    color: black;
+}
