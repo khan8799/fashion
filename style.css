@@ -21,6 +21,8 @@
 .block2{
     display: flex;
 }
+.blockx{
+}
 .block21{
   width: 50%;
   height: 600px;
@@ -144,8 +146,8 @@ height: 600px;
 .block41{
     width: 35%;
     height: 500px;
-    padding-left: 100px;
-    padding-top: 80px;
+    /* padding-left: 100px; */
+    /* padding-top: 80px; */
 }
 .bag{
     display: flex;
@@ -170,7 +172,7 @@ h2{
 }
 .option{
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
 }
 .opt1{
     display: flex;
@@ -321,11 +323,15 @@ body{
     background-color: bisque;
 }
 .login-form{
+    display: flex;
+    margin: auto;
     background-color: white !important;
-    width: 25%;
+    width: 26%;
     height: 60%;
-    margin-left: 500px;
-    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 500px; */
+    margin-top: 20px;
     text-align: center;
     border: 2px solid palevioletred;
 }
@@ -351,7 +357,7 @@ body{
     background-color: #FF0000;
 }
 .register{
-    margin-top: 20px;
+    margin-top: 2px;
 }
 #or{
     font-weight: 10px !important;
@@ -414,13 +420,16 @@ button{
     background-color: aquamarine;
     height: 544px;
     width: 65%;
-    background: url("https://images.pexels.com/photos/7319299/pexels-photo-7319299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: 100% 500px;
 }
+.blockimg {
+background-image: url("https://images.pexels.com/photos/7319299/pexels-photo-7319299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
 .block2{
     background-color: white;
     height: 543px;
-    width: 35%;
+    /* width: 35%; */
 }
 label{
     margin-top: 20px;
@@ -449,9 +458,10 @@ label{
 #back{
     padding-left: 60px;
 }
+
 #discount{
     padding-top: 340px;
-    padding-left: 360px;
+    padding-left: 304px;
     font-size: 20px;
     font-weight: 10px;
     color: rgb(190, 16, 74);
@@ -472,14 +482,22 @@ label{
 #block1{
     padding-right: 20px;
     width: 20%;
-    height: 600px;
+    height: 1000px;
     border-top: 10px solid bisque;
     border-right: 10px solid bisque;
     border-left: 10px solid bisque;
     background-color: white;
 }
 #block2{
-    
+    width: 80%;
+    height: 1000px;
+    border-left: 2.5px solid bisque;
+    border-top: 10px solid bisque;
+    border-bottom: 10px solid bisque;
+    background-color: white;
+}
+
+#blockx{
     width: 80%;
     height: 1000px;
     border-left: 2.5px solid bisque;
