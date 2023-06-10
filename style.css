@@ -1,3 +1,7 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+
 .collapse{
     justify-content: center;
 }
@@ -264,4 +268,284 @@ color: gray;
     padding: 20px 20px 20px 20px;
 }
 
+/* Account.html Css  */
 
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.tab-content {
+	flex: 1;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+.nav-pills a.nav-link i {
+	width: 20px;
+}
+
+.img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
+
+
+/* Login */
+
+.d-flex{
+    padding-right: 50px;
+}
+.navbar{
+    background-color: white !important;
+}
+body{
+    background-color: bisque;
+}
+.login-form{
+    background-color: white !important;
+    width: 25%;
+    height: 60%;
+    margin-left: 500px;
+    margin-top: 80px;
+    text-align: center;
+    border: 2px solid palevioletred;
+}
+.email{
+    width: 300px;
+}
+.pswrd{
+    width: 300px;
+    margin-top: 20px;
+}
+#remember{
+    margin-top: 20px;
+    text-align: left;
+}
+.fb{
+    margin-top: 0px;
+    width: 300px;
+    background-color: #3b5998;
+}
+.google{
+    margin-top: 10px;
+    width: 300px;
+    background-color: #FF0000;
+}
+.register{
+    margin-top: 20px;
+}
+#or{
+    font-weight: 10px !important;
+    margin-top: 30px;
+}
+.inner-container{
+   margin-left: 20px;
+   text-align: left;
+}
+.forgot{
+    padding-left: 60px;
+}
+
+
+/* Kids Fashion */
+
+.contain{
+    display: flex;
+    background-color: white;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    justify-content: center;
+    height: 10px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+.dropdown {
+    padding-right: 2%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 20%;
+    padding-top: 15px;
+}
+.col img{
+    width: 300px;
+}
+.col{
+    border: 10px;
+}
+.col a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Signup.html */
+
+.block{
+    display: flex;
+    width: 1000px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 180px;
+    margin-right: 150px;
+    border: 3px solid palevioletred;
+}
+.block1{
+    background-color: aquamarine;
+    height: 544px;
+    width: 65%;
+    background: url("https://images.pexels.com/photos/7319299/pexels-photo-7319299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100% 500px;
+}
+.block2{
+    background-color: white;
+    height: 543px;
+    width: 35%;
+}
+label{
+    margin-top: 20px;
+}
+.signup{
+    margin-left: 50px;
+}
+#signup{
+    margin-top: 10px;
+    color: palevioletred;
+    margin-left: 70px;
+}
+.btnsign{
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: palevioletred;
+    color: white;
+    font-weight: 3px;
+    margin-top: 10px;
+}
+.name{
+    width: 250px;
+
+}
+#back{
+    padding-left: 60px;
+}
+#discount{
+    padding-top: 340px;
+    padding-left: 360px;
+    font-size: 20px;
+    font-weight: 10px;
+    color: rgb(190, 16, 74);
+    font-family:"Cookie",cursive;
+}
+
+
+/* Men Page */
+
+.example{
+    margin-right: 1opx;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+}
+#block1{
+    padding-right: 20px;
+    width: 20%;
+    height: 600px;
+    border-top: 10px solid bisque;
+    border-right: 10px solid bisque;
+    border-left: 10px solid bisque;
+    background-color: white;
+}
+#block2{
+    
+    width: 80%;
+    height: 1000px;
+    border-left: 2.5px solid bisque;
+    border-top: 10px solid bisque;
+    border-bottom: 10px solid bisque;
+    background-color: white;
+}
+span{
+    font-weight: 500;
+}
+
+.inner-option{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#categories{
+    padding-left: 5px;
+}
+
+.men{
+    width: 90%;
+    height: 310px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.roadster{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.description{
+    font-size: 13px;
+    padding-top: 0px;
+    color: grey
+}
+
+
+.find{
+    border-right: 6px solid bisque;
+    border-bottom: 6px solid bisque;
+    margin-left: 265px;
+    border-left: 6px solid bisque;
+    padding-left: 30px;
+    background-color: white;
+}
+#Yes{
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+#No{
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.category{
+    margin-left: 6px;
+}
+label{
+    padding-left: 10px;
+    font-size: 15px;
+}
