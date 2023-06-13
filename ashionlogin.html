@@ -1,116 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.3/css/all.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
-    <link rel ="stylesheet" href = "style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="stylesheet" href =
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar Starts Here -->
 
-  <!-- NavBar Starts Here -->
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a href="/index.html">
-            <img src="https://preview.colorlib.com/theme/ashion/img/logo.png">
-          </a>
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">WOMEN'S</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">MEN'S</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SHOP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul class="navbar-nav">
-                <li>
-                    <div>
-                        <form class="example" action="action_page.php">
-                            <input type="text" placeholder="Search on Fashion.." name="search">
-                            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                            </svg></button>
-                          </form>
-                    </div>
-                </li>
-                <li class="cart">
-                    <a href=""><i class="fa fa-regular fa-heart"></i></i></a>
-                </li>
-                <li class="cart">
-                    <a href=""><i class="fa fa-solid fa-cart-plus"></i></a>
-                </li>
-              </ul>
-              </div>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid">
+        <a class="website-title" href="/index.html">
+          Fashion
+        </a>
+        <a class="navbar-brand" href="javascript:void()"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void()">WOMEN'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void()">MEN'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void()">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void()">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">CONTACT</a>
+            </li>
+          </ul>
         </div>
+        <div>
+          <ul class="navbar-nav">
+            <li>
+              <div>
+                <form class="example" action="action_page.php">
+                  <input
+                    type="text"
+                    placeholder="Search on Fashion.."
+                    name="search"
+                  />
+                  <button type="submit">
+                    <a href="javascript:void()">
+                      <i class="fas fa-search"></i>
+                    </a>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-login-cart-wishlist" id="login-button"></li>
+            <li class="nav-login-cart-wishlist">
+              <a class="login-cart-wishlist-color" href="javascript:void()"
+                ><i class="fa fa-regular fa-heart"></i
+              ></a>
+            </li>
+            <li class="nav-login-cart-wishlist">
+              <a class="login-cart-wishlist-color" href="javascript:void()"
+                ><i class="fa fa-solid fa-cart-plus"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    
-  <!-- NavBar Starts Here -->
 
+    <!-- NavBar Ends Here -->
 
     <div>
-        <form class="login-form">
-            <div class="heading">
-                <h3 style="color: palevioletred;">Login</h3>
-                <p>Login using Email or Mobile Number</p>
-                <div class="main-container">
-                    <label for="username"></label>
-                    <input class="email" type="text" id="username" name="username" placeholder="Enter Email/Mobile number">
-                    <br>
-                    <label for="pswrd"></label>
-                    <input class="pswrd" type="password" placeholder="Enter Password" name="pswrd">
-                    <div class="inner-container">
-                        <label>
-                          <input type="checkbox" style="text-align: left;" id="remember" name="remember">Remember me
-                        </label>
-                        <a class = "forgot" style="text-decoration: none; color: gray;" href="">Forgot Password?</a>
-                    </div>
-                    <br>
-                    <button type="submit" style="background-color: bisque; width: 300px;">Login</button>
-                    <br>
-                    <div id="or">-or-</div>
-                    <br>
-                    <button class="fb" type="submit">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                      </svg> Sign in with Facebook
-                    </button>
-                    <br>
-                    <button class="google" type="submit">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
-                      </svg>   Sign in with Google
-                    </button>
-                    <p class="register">New Customer?  <a style="color: blue;" href="./signup.html">SignUp!</a></p>
-                </div>
+      <form class="login-form">
+        <div class="heading">
+          <h3 id="loginHead">Login</h3>
+          <p>Login using Email or Mobile Number</p>
+          <div class="main-container">
+            <label for="username"></label>
+            <input
+              class="email"
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Email/Mobile number"
+            />
+            <br />
+            <label for="pswrd"></label>
+            <input
+              class="pswrd"
+              type="password"
+              placeholder="Enter Password"
+              name="pswrd"
+            />
+            <div class="inner-container">
+              <label>
+                <input
+                  type="checkbox"
+                  id="rememberPswrd"
+                  name="remember"
+                />Remember me
+              </label>
+              <a class="forgot-pswrd" href="javascript:void()"
+                >Forgot Password?</a
+              >
             </div>
-        </form>
+            <br />
+            <button type="submit" id="loginButtonLoginPage">Login</button>
+            <br />
+            <div id="orDivider">-or-</div>
+            <br />
+            <button class="login-using-fb" type="submit">
+              <i class="fab fa-facebook" id="loginUsingFb"></i>
+              Sign in with Facebook
+            </button>
+            <br />
+            <button class="login-using-google" type="submit">
+              <i class="fab fa-google" id="loginUsingGoogle"></i>
+              Sign in with Google
+            </button>
+            <p class="register">
+              New Customer? <a id="signup" href="./signup.html">SignUp!</a>
+            </p>
+          </div>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
