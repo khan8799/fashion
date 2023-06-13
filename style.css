@@ -395,6 +395,12 @@ body {
     width: 300px;
     background-color: #FF0000;
 }
+#loginUsingFb{
+    color: white;
+}
+#loginUsingGoogle{
+    color: white;
+}
 .register{
     margin-top: 7px;
 }
