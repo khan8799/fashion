@@ -168,38 +168,21 @@
         <span class="new-product" style="font-weight: 600; font-size: 30px"
           >NEW PRODUCT</span
         >
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory('all')">All</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory('women')">Women's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory(men)">Men's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory('kid')">Kid's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory('accessories')">Accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="filterProductByCategory('cosmetics')">Cosmetics</a>
-          </li>
+        <ul id="categories" class="nav justify-content-end">
         </ul>
       </div>
     </nav>
 
     <!-- Product List - All -->
+    <div id="all-item">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/CS_JetBlack_01_1728x.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Men black shirt</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -230,10 +213,10 @@
       <div class="items" id="p4">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/fruity-cherries-cute-kids-dress.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">baby girl top</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -244,17 +227,19 @@
           <span class="new-product-name-price">Rs. 549</span>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Product List - Women -->
+    <div id="women">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/anarkali-kurta-6954377_1280.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Women Kurta</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -265,13 +250,13 @@
           <span class="new-product-name-price">Rs. 599</span>
         </div>
       </div>
-      <div class="items" id="p3">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/km0x5zk0/top/j/z/o/m-178tkr2901-selvia-original-imagfyqfytkkfpkn.jpeg?q=70"
+          src="./assets/img/blue sari.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Maroon Top</a>
+          <a href="javascript:void()" class="new-product-name">women Blue Saari</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -282,13 +267,13 @@
           <span class="new-product-name-price">Rs. 499</span>
         </div>
       </div>
-      <div class="items" id="p4">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/wonen printed.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">Women Printed Frocks</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -299,17 +284,19 @@
           <span class="new-product-name-price">Rs. 549</span>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Product List - Men -->
+    <div id="all-men-list">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/shirtred.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Men Red Shirt</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -320,13 +307,13 @@
           <span class="new-product-name-price">Rs. 599</span>
         </div>
       </div>
-      <div class="items" id="p3">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/km0x5zk0/top/j/z/o/m-178tkr2901-selvia-original-imagfyqfytkkfpkn.jpeg?q=70"
+          src="./assets/img/CS_JetBlack_01_1728x.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Maroon Top</a>
+          <a href="javascript:void()" class="new-product-name">Men Black Shirt</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -337,13 +324,13 @@
           <span class="new-product-name-price">Rs. 499</span>
         </div>
       </div>
-      <div class="items" id="p4">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/white shirt.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">Men White Shirt</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -354,17 +341,19 @@
           <span class="new-product-name-price">Rs. 549</span>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Product List - Kids -->
+    <div id="all-kid-items">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/kid1.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Blazer</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -375,10 +364,10 @@
           <span class="new-product-name-price">Rs. 599</span>
         </div>
       </div>
-      <div class="items" id="p3">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/km0x5zk0/top/j/z/o/m-178tkr2901-selvia-original-imagfyqfytkkfpkn.jpeg?q=70"
+          src="./assets/img/kid2.jpg"
         />
         <div class="rating">
           <a href="javascript:void()" class="new-product-name">Maroon Top</a>
@@ -392,13 +381,13 @@
           <span class="new-product-name-price">Rs. 499</span>
         </div>
       </div>
-      <div class="items" id="p4">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/images.jpeg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">White Top</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -409,17 +398,19 @@
           <span class="new-product-name-price">Rs. 549</span>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Product List - Accessories -->
+    <div id="all-accessories">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/purse.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Leather Purse</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -430,13 +421,13 @@
           <span class="new-product-name-price">Rs. 599</span>
         </div>
       </div>
-      <div class="items" id="p3">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/km0x5zk0/top/j/z/o/m-178tkr2901-selvia-original-imagfyqfytkkfpkn.jpeg?q=70"
+          src="./assets/img/watch.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Maroon Top</a>
+          <a href="javascript:void()" class="new-product-name">Men Watch</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -447,13 +438,13 @@
           <span class="new-product-name-price">Rs. 499</span>
         </div>
       </div>
-      <div class="items" id="p4">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/belt.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">Leather Belt</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -465,16 +456,18 @@
         </div>
       </div>
     </div>
+    </div>
 
     <!-- Product List - Cosmetics -->
+    <div id="all-cosmetics">
     <div class="item-list">
-      <div class="items" id="p2">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/xif0q/top/b/w/w/s-lvt1170-b-kibo-original-imaggksv36frgckd.jpeg?q=70"
+          src="./assets/img/cosmetics1.jpeg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Blue Top</a>
+          <a href="javascript:void()" class="new-product-name">Women Shades</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -485,13 +478,13 @@
           <span class="new-product-name-price">Rs. 599</span>
         </div>
       </div>
-      <div class="items" id="p3">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/km0x5zk0/top/j/z/o/m-178tkr2901-selvia-original-imagfyqfytkkfpkn.jpeg?q=70"
+          src="./assets/img/cosmetics2.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Maroon Top</a>
+          <a href="javascript:void()" class="new-product-name">Lipstics</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -502,13 +495,13 @@
           <span class="new-product-name-price">Rs. 499</span>
         </div>
       </div>
-      <div class="items" id="p4">
+      <div class="items">
         <img
           class="item-img"
-          src="https://rukminim1.flixcart.com/image/832/832/kyyqpow0/top/u/c/t/xs-541-sheetal-associates-original-imagb2rt7hh5gdh6.jpeg?q=70"
+          src="./assets/img/cos3.jpg"
         />
         <div class="rating">
-          <a href="javascript:void()" class="new-product-name">Black Top</a>
+          <a href="javascript:void()" class="new-product-name">Eyeliner</a>
           <br />
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -519,6 +512,7 @@
           <span class="new-product-name-price">Rs. 549</span>
         </div>
       </div>
+    </div>
     </div>
 
     <div class="project-jacket-img">
@@ -641,6 +635,7 @@
         </div>
       </div>
     </div>
+    
     <div class="discount-offer">
       <div class="sale">
         <span id="discountOffer">Discount</span>
@@ -661,7 +656,6 @@
       </div>
       <div class="m-bar">
         <i class="fas fa-headset"></i>
-        </svg>
         <span>Online Support 24/7</span>
       </div>
       <div class="m-bar">
@@ -760,6 +754,6 @@
       <span>Copyright © 2023 All rights reserved</span>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
