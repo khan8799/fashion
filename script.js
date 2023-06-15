@@ -4,7 +4,7 @@ function filterProductByCategory(category) {
 
 var divs = ["All-item", "women", "all-men-list", "all-kid-items","all-accessories","all-cosmetics"];
 var visibleDivId = null;
-function toggleVisibility(divId) {
+function filterProductByCategory(divId) {
   if(visibleDivId === divId) {
     //visibleDivId = null;
   } else {
