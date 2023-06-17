@@ -590,3 +590,6 @@ label{
     width: 350px;
     height: 400px;
 }
+li:hover{
+    cursor: pointer;
+}
