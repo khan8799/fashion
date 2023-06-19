@@ -580,3 +580,16 @@ label{
     text-decoration: none;
     padding-left: 5px;
 }
+.nav-item,a{
+    color: black;
+    position: relative;
+    text-decoration: none;
+    margin: 5px;
+}
+.item-img{
+    width: 350px;
+    height: 400px;
+}
+li:hover{
+    cursor: pointer;
+}
